@@ -1,6 +1,5 @@
 <p align="center">
-
-<img src=https://github.com/user-attachments/assets/ff86f30e-0fb6-4f2b-81c1-c3cd90c1ff76 alt="VM logo" width="600">
+  <img src="https://raw.githubusercontent.com/tylergehm/vm/main/Azure%20VM%20Logo.jpg" alt="Azure VM Logo" style="max-width:100%;height:auto;" />
 </p>
 
 <h1>Cross-Platform Virtual Machine Setup: Windows & Linux</h1>
