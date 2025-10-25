@@ -13,24 +13,24 @@ What are Virtual Machines? A virtual machine (VM) is like a computer running ins
 
 
 <h2>Operating Systems Used </h2>
+
 - Windows 11 Home (Host Machine)
 - Ubuntu Linux (Azure VM)
 - Windows 10 Pro (Azure VM)
 
-<h2>Steps Included</h2>
 
-- STEP 1 - Create a Resource Group
-- STEP 2 - Create a virtual machine for Windows
-- STEP 3 - Deploy the Windows VM
-- STEP 4 - Verify the Windows VM is running
-- STEP 5 - Create a virtual machine for Linux
-- STEP 6 - Deploy the Linux VM
-- STEP 7 - Verify the Linux VM is running
-- STEP 8 - Verify both our VMs are running
+<h2>Configuration Steps</h2>
 
+- 1 - Create a Resource Group
+- 2 - Create Windows 10 Pro VM within Resource Group
+- 3 - Use Remote Desktop to test Windows VM functionality
+- 4 - Create Ubunto Linux VM within Resource Group
+- 5 - Use Remote Desktop to test Linux VM functionality
+- 6 - Ping Linux VM to test connectivity
 
 
-<h2>Installation Steps</h2>
+
+<h2>Configuration Process</h2>
 
 <p>
 The very first thing we have to do is sign-up for a free Microsoft Azure account. When your account is created you are awarded a $200 credit that expires in 30 days. 
