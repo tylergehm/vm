@@ -2,8 +2,8 @@
   <img src="https://raw.githubusercontent.com/tylergehm/vm/main/Azure%20VM%20Logo.jpg" alt="Azure VM Logo" style="max-width:100%;height:auto;" />
 </p>
 
-<h1>Cross-Platform Virtual Machine Setup: Windows & Linux</h1>
-In this project we will demonstrate the setup and configuration of Virtual Machines running both Windows and Linux operating systems (OS). It explores virtualization concepts while showcasing cross-platform environment creation for development and network testing.<br />
+<h1>Creating Windows and Linux Virtual Machines in Azure Portal</h1>
+What are Virtual Machines? A virtual machine is like a computer running inside another computer or in the cloud. It acts like a real PC, letting you run Windows, Linux, or other operating systems without needing extra hardware. VMs are great for practicing IT skills, testing apps, or troubleshooting without risking your main system. In this guide, I will walk you through creating Windows and Linux VMs in the Microsoft Azure portal.<br />
 
 
 <h2>Environments and Technologies Used</h2>
