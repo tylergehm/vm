@@ -17,13 +17,13 @@ After the Virtual Machines are created, we will test their functionality utilizi
 
 - Windows 11 Home (Host Machine)
 - Ubuntu Linux (Azure VM)
-- Windows 10 Pro (Azure VM)
+- Windows 11 Pro (Azure VM)
 
 
 <h2>Configuration Steps</h2>
 
 - Step 1 - Create a Resource Group
-- Step 2 - Create Windows 10 Pro VM within Resource Group
+- Step 2 - Create Windows 11 Pro VM within Resource Group
 - Step 3 - Use Remote Desktop to test Windows VM functionality
 - Step 4 - Create Ubuntu Linux VM within Resource Group
 
@@ -54,8 +54,11 @@ Once inside the Resource group portal, click "Create" to begin creating a new Re
 
 </p>
 Next, the information regarding the details of the Resource group are entered.
+</p>
 Subscription: This is the Azure account or billing plan you select to pay for and manage the resources in your Resource Group.
+</p>
 Resource Name: This is the unique name you give your Resource Group, such as "RG-Virtual-Machines" to identify and organize your resources.
+</p>
 Region: This is the geographic location, such as "(US) East US 2," where Azure hosts your resources. 
 Once filled out, click "Review + Create"
 <br>
@@ -68,7 +71,7 @@ Next we review the summary of the Resource group to be created. Click "Create" t
 </p>
 The Resource group "RG-Virtual-Machines" has now been created and ready for use.
 <br>
-<h2>Step 2 - Create Windows 10 Pro VM within Resource Group</h2>
+<h2>Step 2 - Create Windows 11 Pro VM within Resource Group</h2>
 <img width="1885" height="683" alt="image" src="https://github.com/user-attachments/assets/5cff2984-f0fc-41af-9934-6e62eaa87354" />
 </p>
 Next, we utilize the search bar to look up "Virtual Machines" and click on "Virtual machines" under the Services section.
