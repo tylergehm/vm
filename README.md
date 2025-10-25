@@ -187,9 +187,4 @@ After the VM creation validation has passed, click "Create" to deploy the Ubuntu
 
 <img width="1917" height="521" alt="image" src="https://github.com/user-attachments/assets/f146e75d-3bc3-49c9-a405-f11c6a5d9603" />
 </p>
-Returning the Virtual machines portal, there are now 2 VMs available: The Windows 11 VM and the Ubuntu Linux VM. In this view, the Public IP address information is available.
-
-
-<h2>Final Thoughts</h2>
-</p>
-Virtual machines are an incredible resource because they allow us to run multiple operating systems on the same physical hardware for testing or learning purposes.This project provided hands-on experience with virtualization and operating system installation, reinforcing key concepts in system administration and cross-platform compatibility. It lays a solid foundation for more advanced networking, cybersecurity, and DevOps projects.<br />
+Returning the Virtual machines portal, there are now 2 VMs available: The Windows 11 VM and the Ubuntu Linux VM. In this view, the Public IP address information for both VMs is available.
