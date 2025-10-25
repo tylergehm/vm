@@ -4,8 +4,11 @@
 
 <h1>Creating Windows and Linux Virtual Machines in Azure Portal</h1>
 What are Virtual Machines? A virtual machine (VM) is like a computer running inside another computer or in the cloud. It acts like a real PC, letting you run Windows, Linux, or other operating systems without needing extra hardware. VMs are great for practicing IT skills, testing apps, or troubleshooting without risking your main system. In this guide, I will walk you through creating Windows and Linux VMs in the Microsoft Azure portal. <br> <br>
-After the Virtual Machines are created, we will test their functionality utilizing Remote Desktop. Remote Desktop is a Windows feature that lets you connect to and control a computer from another device over the internet or a network, like accessing your work PC from home. It’s commonly used to manage virtual machines or troubleshoot systems remotely. For example, with Microsoft’s Remote Desktop Protocol (RDP), you can log into a Windows VM in Azure using its public IP and credentials.<br />
+After the Virtual Machines are created, we will test their functionality utilizing Remote Desktop. Remote Desktop is a Windows feature that lets you connect to and control a computer from another device over the internet or a network, like accessing your work PC from home. It’s commonly used to manage virtual machines or troubleshoot systems remotely. For example, with Microsoft’s Remote Desktop Protocol (RDP), you can log into a Windows VM in Azure using its public IP and credentials.
+</p>
+<h2>Video Demonstration</h2>
 
+- ### [YouTube: Creating Windows and Linux Virtual Machines in Azure Portal](https://www.youtube.com/watch?v=ISIau7bI14E)
 
 <h2>Environments and Technologies Used</h2>
 
@@ -28,8 +31,8 @@ After the Virtual Machines are created, we will test their functionality utilizi
 - Step 4 - Create Ubuntu Linux VM within Resource Group
 
 
-
-<h2>Configuration Process</h2>
+---
+<h2><p align="center">Configuration Process</p></h2>
 <h2>Step 1: Create a Resource Group</h2>
 <img width="1912" height="844" alt="image" src="https://github.com/user-attachments/assets/e8e798af-0669-4a59-8dd8-04cfcdc54e4e" />
 
@@ -71,6 +74,8 @@ Next we review the summary of the Resource group to be created. Click "Create" t
 </p>
 The Resource group "RG-Virtual-Machines" has now been created and ready for use.
 <br>
+---
+
 <h2>Step 2 - Create Windows 11 Pro VM within Resource Group</h2>
 <img width="1885" height="683" alt="image" src="https://github.com/user-attachments/assets/5cff2984-f0fc-41af-9934-6e62eaa87354" />
 </p>
@@ -135,6 +140,8 @@ Once the Windows 11 Pro VM has been created or "deployed"; click "Go to resource
 </p>
 In the Windows VM portal, scroll down to the "Networking" section. Here is where the information for the Public IP address and Virtual network is shown.
 
+---
+
 <h2>Step 3 - Use Remote Desktop to test Windows VM functionality</h2>
 <img width="454" height="271" alt="image" src="https://github.com/user-attachments/assets/5f9b4599-a663-48a3-9e04-2085c5e12c08" />
 </p>
@@ -153,8 +160,9 @@ Verify that the name in the certificate is the name of the intended VM to connec
 </p>
 The Windows 11 Pro VM functionality has been verified.
 
+---
 
-<h2>Step 4 - Create Ubunto Linux VM within Resource Group</h2>
+<h2>Step 4 - Create Ubuntu Linux VM within Resource Group</h2>
 <img width="1866" height="445" alt="image" src="https://github.com/user-attachments/assets/ca671c31-7fff-496c-83ca-7b3c85ec6ea9" />
 Returning to the Virtual machines portal, we can see the previous VM created is listed as a Running virtual machine; which indicates that the machine is on and ready for use. 
 </p>
@@ -179,15 +187,19 @@ In the Image drop down box; select Ubuntu Pro 24.04 LTS.
 <img width="980" height="277" alt="image" src="https://github.com/user-attachments/assets/1fdbf025-164f-4516-8db9-41f4021f0fc7" />
 </p>
 In the Administrator account section, select the Password button and fill out the Username and password sections. This is the credentials that will be used for logging into the Ubuntu VM. Then click "Next" twice to enter into the Networking section of the VM creation.
-
+</p>
 <img width="1074" height="443" alt="image" src="https://github.com/user-attachments/assets/a1f4cc8f-79f1-49e0-8e1f-c086046c07e9" />
 </p>
 In the drop down box, select "Virtual-Machines-Vnet"; as this is the virtual network that the Windows 11 VM was created on. Then click "Review + Create".
-
+</p>
 <img width="1185" height="764" alt="image" src="https://github.com/user-attachments/assets/0bfe2a21-472f-4e59-9ee3-cef817987003" />
 </p>
+
 After the VM creation validation has passed, click "Create" to deploy the Ubuntu Linux VM.
 
 <img width="1917" height="521" alt="image" src="https://github.com/user-attachments/assets/f146e75d-3bc3-49c9-a405-f11c6a5d9603" />
 </p>
 Returning the Virtual machines portal, there are now 2 VMs available: The Windows 11 VM and the Ubuntu Linux VM. In this view, the Public IP address information for both VMs is available.
+</p>
+<h2>Conclusion</h2>
+This project demonstrates the power and flexibility of Microsoft Azure for creating and managing virtual machines, enabling hands-on experience with both Windows and Linux environments in a cloud setting. By utilizing Azure’s Resource Groups and virtual networks, users develop essential skills in configuring and connecting VMs, fostering a deeper understanding of virtualization and network management. This practical experience lays a strong foundation for mastering virtual machine deployment and virtual network setups in cloud environments.
