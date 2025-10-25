@@ -3,18 +3,19 @@
 </p>
 
 <h1>Creating Windows and Linux Virtual Machines in Azure Portal</h1>
-What are Virtual Machines? A virtual machine is like a computer running inside another computer or in the cloud. It acts like a real PC, letting you run Windows, Linux, or other operating systems without needing extra hardware. VMs are great for practicing IT skills, testing apps, or troubleshooting without risking your main system. In this guide, I will walk you through creating Windows and Linux VMs in the Microsoft Azure portal.<br />
+What are Virtual Machines? A virtual machine (VM) is like a computer running inside another computer or in the cloud. It acts like a real PC, letting you run Windows, Linux, or other operating systems without needing extra hardware. VMs are great for practicing IT skills, testing apps, or troubleshooting without risking your main system. In this guide, I will walk you through creating Windows and Linux VMs in the Microsoft Azure portal.<br />
 
 
 <h2>Environments and Technologies Used</h2>
 
-- Microsoft Azure (Virtual Machines/Compute)
+- Microsoft Azure
+- Remote Desktop
 
 
 <h2>Operating Systems Used </h2>
-
-- Ubuntu (Linux)
-- Windows 11 (24H2)
+- Windows 11 Home (Host Machine)
+- Ubuntu Linux (Azure VM)
+- Windows 10 Pro (Azure VM)
 
 <h2>Steps Included</h2>
 
